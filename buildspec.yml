@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  submitted:
+    commands:
+      - echo Executing Submitted Phase
+  provisioning:
+    commands:
+      - echo Executing Provisioning Phase
+  download_sources:
+    commands:
+      - echo Executing Provisioning Phase
